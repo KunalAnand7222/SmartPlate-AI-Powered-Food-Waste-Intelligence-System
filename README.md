@@ -128,18 +128,41 @@ The dashboard will open at `http://localhost:8501` 🎉
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-> Screenshots will be added after first deployment.
+## 📊 KPI Dashboard
 
-| Section | Preview |
-|---------|---------|
-| KPI Cards | _Coming soon_ |
-| Waste Heatmap |
-| Anomaly Detection |
-| 7-Day Forecast ![Uploading image.png…]()|
-| AI Recommendations ![Uploading image.png…]()|
-| What-If Simulator ![Uploading image.png…]()|
+<img src="kpi.png" alt="KPI Dashboard" width="100%"/>
+
+---
+
+## 🔥 Waste Heatmap
+
+<img src="wasteHeatmap.png" alt="Waste Heatmap" width="100%"/>
+
+---
+
+## 🚨 Anomaly Detection
+
+<img src="anamoly.png" alt="Anomaly Detection" width="100%"/>
+
+---
+
+## 🔮 7-Day Forecast
+
+<img src="7Day.png" alt="7-Day Forecast" width="100%"/>
+
+---
+
+## 🧠 AI-Powered Recommendations
+
+<img src="aipowered.png" alt="AI Recommendations" width="100%"/>
+
+---
+
+## 🎮 What-If Simulator
+
+<img src="whatIf.png" alt="What-If Simulator" width="100%"/>
 
 ---
 
