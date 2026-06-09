@@ -19,6 +19,15 @@ Indian restaurants waste an estimated 40% of the food they prepare daily. This i
 **SmartPlate** solves this by combining **data analytics**, **machine learning forecasting**, and **AI-powered recommendations** into a single, beautiful dashboard that restaurant managers can use every day.
 
 ---
+## 🌐 Live Demo
+
+Experience the live SmartPlate dashboard here:
+
+🔗 **Live Application:** https://smartplateaipowered.streamlit.app/
+
+> **Note:** The deployed application runs without a local Ollama server. When Ollama is unavailable, the AI Insights module automatically switches to intelligent fallback recommendations, ensuring a seamless user experience while demonstrating the dashboard's analytics, forecasting, and visualization capabilities.
+
+---
 
 ## ✨ Features
 
