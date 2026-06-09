@@ -135,11 +135,11 @@ The dashboard will open at `http://localhost:8501` 🎉
 | Section | Preview |
 |---------|---------|
 | KPI Cards | _Coming soon_ |
-| Waste Heatmap | _Coming soon_ |
-| Anomaly Detection | _Coming soon_ |
-| 7-Day Forecast | _Coming soon_ |
-| AI Recommendations | _Coming soon_ |
-| What-If Simulator | _Coming soon_ |
+| Waste Heatmap |
+| Anomaly Detection |
+| 7-Day Forecast ![Uploading image.png…]()|
+| AI Recommendations ![Uploading image.png…]()|
+| What-If Simulator ![Uploading image.png…]()|
 
 ---
 
