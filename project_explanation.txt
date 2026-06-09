@@ -1,0 +1,42 @@
+SmartPlate: AI-Powered Food Waste Intelligence System
+=====================================================
+
+Project Overview (The "Elevator Pitch")
+-----------------------------------------------------
+"I developed SmartPlate, an AI-driven food waste intelligence dashboard designed to help commercial kitchens and restaurant aggregators track, predict, and reduce food waste. The platform ingests daily kitchen data—such as preparation quantities, order volumes, and leftover waste—and leverages Machine Learning and Generative AI to provide actionable operational insights. It doesn't just show historical data; it actively predicts future waste and simulates cost-saving strategies."
+
+Tech Stack & Architecture
+-----------------------------------------------------
+* Frontend: Streamlit (built with a custom, professional dual-theme editorial UI)
+* Data Processing: Python, Pandas, NumPy
+* Data Visualization: Plotly (interactive charts, heatmaps)
+* Machine Learning: Scikit-Learn (Random Forest & XGBoost regressors)
+* Generative AI: Local LLM integration (Ollama) for automated, natural-language recommendations
+
+Key Features & Technical Implementation
+-----------------------------------------------------
+1. Real-Time KPI Tracking: Calculates total waste volume, financial loss in INR, and week-over-week percentage changes.
+2. Anomaly Detection: Uses statistical rolling means and standard deviation (2-sigma thresholds) to automatically flag unusual spikes in food waste.
+3. 7-Day ML Forecasting: Trains Random Forest and XGBoost models on historical data (incorporating features like day-of-week, category, and historical lag) to predict the exact kilogram of waste per menu item for the upcoming week. The system dynamically evaluates both models and selects the most accurate one based on lowest Mean Absolute Error (MAE).
+4. AI-Powered Recommendations: An integrated LLM reads the weekly data summary and generates plain-English, actionable advice for the kitchen staff (e.g., "Reduce paneer prep on Tuesdays").
+5. What-If Simulator: A dynamic tool that allows managers to simulate reducing prep quantities by a certain percentage to instantly see projected monthly cost savings versus the risk of unfulfilled orders.
+
+Real-Life Industry Use Cases
+-----------------------------------------------------
+
+1. Aggregators & Cloud Kitchens (Zomato, Swiggy)
+* Centralized Prep Optimization: Cloud kitchens prep massive amounts of base gravies and dough. SmartPlate can be deployed across hundreds of dark kitchens to forecast exact ingredient needs per location based on hyper-local demand patterns, drastically cutting raw material costs.
+* Partner Analytics: Zomato/Swiggy could offer this dashboard as a B2B SaaS add-on for their restaurant partners, helping them improve profit margins. Better margins mean restaurants can run better discounts or invest in better quality, improving the aggregator's ecosystem.
+
+2. Large-Scale Restaurants & Buffets
+* Buffet Management: Buffets suffer from massive over-preparation. SmartPlate's Heatmap and Drilldown features can show a manager exactly which items are consistently thrown away on specific days of the week, allowing them to scale back portion sizes without affecting customer satisfaction.
+* Dynamic Procurement: By using the 7-Day Forecast, inventory managers know exactly how much perishable stock (like meat and dairy) to order from suppliers, preventing spoilage in the walk-in fridge.
+
+3. Sustainability & ESG Goals
+* Corporate Social Responsibility (CSR): Large hospitality chains have strict ESG (Environmental, Social, and Governance) targets. SmartPlate provides quantifiable metrics on how much food waste (and consequently, methane emissions from landfills) is being reduced over time, which is critical for investor reporting.
+
+Why This Project Stands Out in an Interview
+-----------------------------------------------------
+* End-to-End Problem Solving: It solves a real financial and environmental problem.
+* Advanced Analytics: It goes beyond simple dashboards by incorporating predictive ML models (XGBoost/Random Forest).
+* Actionability: The "What-If Simulator" and "AI Recommendations" prove that the tool isn't just about showing graphs—it's about driving business decisions and saving money.
